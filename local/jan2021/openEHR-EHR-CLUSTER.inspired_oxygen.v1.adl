@@ -137,7 +137,7 @@ Where not specifically recorded values of 21% O₂, FiO₂ of 0.21 and oxygen fl
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"444E49C6CA3F2E5BF68916CE4D2FF4C5">
+		["MD5-CAM-1.0.1"] = <"B1B0BDFCA06B4B3D614471A24EC3A91E">
 		["build_uid"] = <"1e935677-a7a8-4136-b3e4-10db71add8e8">
 		["revision"] = <"1.0.2-alpha">
 	>
@@ -363,7 +363,7 @@ ontology
 		["sv"] = <
 			items = <
 				["at0000"] = <
-					text = <"Inandad syrekoncentration">
+					text = <"Inandad syrgas">
 					description = <"Mängden syre som ges eller ordineras till patienten, angivet som andel, procent, eller indirekt som syrgasflöde.">
 				>
 				["at0051"] = <
