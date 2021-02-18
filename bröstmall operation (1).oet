@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template xmlns="openEHR/v1/Template">
+    <id>59acedad-e29c-46b6-9d4c-b70df26c065f</id>
+    <name>bröstmall operation</name>
+    <description>
+        <original_author>
+            <item>
+                <key>date</key>
+                <value>2021-02-11</value>
+            </item>
+        </original_author>
+        <lifecycle_state>unmanaged</lifecycle_state>
+        <details/>
+        <other_details>
+            <item>
+                <key>licence</key>
+                <value/>
+            </item>
+            <item>
+                <key>custodian_organisation</key>
+                <value/>
+            </item>
+            <item>
+                <key>original_namespace</key>
+                <value/>
+            </item>
+            <item>
+                <key>original_publisher</key>
+                <value/>
+            </item>
+            <item>
+                <key>custodian_namespace</key>
+                <value/>
+            </item>
+            <item>
+                <key>sem_ver</key>
+                <value>0.1.0</value>
+            </item>
+            <item>
+                <key>MD5-CAM-1.0.1</key>
+                <value>ea9f7ff26a3b541a91239d2cbf7b9898</value>
+            </item>
+            <item>
+                <key>PARENT:MD5-CAM-1.0.1</key>
+                <value>7435c2aba6965eee676b0a6a074c8560</value>
+            </item>
+            <item>
+                <key>original_language</key>
+                <value>ISO_639-1::en</value>
+            </item>
+        </other_details>
+    </description>
+    <definition archetype_id="openEHR-EHR-COMPOSITION.report.v1"
+        concept_name="Report" name="Operationsmall bröst"
+        xmlns:tem="openEHR/v1/Template"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="tem:COMPOSITION">
+        <Content archetype_id="openEHR-EHR-ACTION.procedure.v1"
+            concept_name="Procedure" max="1" name="Operationsanteckning"
+            path="/content" xsi:type="tem:ACTION">
+            <Rule max="0" min="0" path="/ism_transition[at0004]"/>
+            <Rule name="utförd operation" path="/ism_transition[at0034]"/>
+            <Rule max="0" min="0" path="/ism_transition[at0007]"/>
+            <Rule max="0" min="0" path="/ism_transition[at0035]"/>
+            <Rule max="0" min="0" path="/ism_transition[at0038]"/>
+            <Rule max="0" min="0" path="/ism_transition[at0039]"/>
+            <Rule max="0" min="0" path="/ism_transition[at0036]"/>
+            <Rule max="0" min="0" path="/ism_transition[at0068]"/>
+            <Rule max="0" min="0" path="/ism_transition[at0047]"/>
+            <Rule max="0" min="0" path="/ism_transition[at0040]"/>
+            <Rule max="0" min="0" path="/ism_transition[at0041]"/>
+            <Rule max="0" min="0" path="/ism_transition[at0043]"/>
+            <Rule name="Namn på operation" path="/description[at0001]/items[at0002]">
+                <constraint xsi:type="tem:textConstraint">
+                    <includedValues>diagnostisk sektorresektion</includedValues>
+                    <includedValues>mastektomi + axilutrymning</includedValues>
+                    <includedValues>mastektomi + SNB</includedValues>
+                    <includedValues>mastektomi + SNB + axilutrymning</includedValues>
+                    <includedValues>mastektomi + SNB + bröstrekonstruktion</includedValues>
+                    <includedValues>partiell mastektomi + axilutrymning</includedValues>
+                    <includedValues>subkutan mastektomi + SNB + bröstrekonstruktion med expander</includedValues>
+                    <includedValues>partiell mastektomi + SNB</includedValues>
+                    <includedValues>övrig</includedValues>
+                </constraint>
+            </Rule>
+            <Rule max="0" path="/description[at0001]/items[at0070]"/>
+            <Rule max="0" path="/description[at0001]/items[at0065]"/>
+            <Rule max="0" path="/description[at0001]/items[at0058]"/>
+            <Rule path="/description[at0001]/items[at0063]">
+                <constraint xsi:type="tem:textConstraint">
+                    <includedValues>Höger</includedValues>
+                    <includedValues>vänster</includedValues>
+                </constraint>
+            </Rule>
+            <Rule max="0" path="/description[at0001]/items[at0048]"/>
+            <Rule max="0" path="/description[at0001]/items[at0069]"/>
+            <Rule max="0" path="/description[at0001]/items[at0006]"/>
+            <Rule max="0" path="/description[at0001]/items[at0066]"/>
+            <Rule max="0" path="/description[at0001]/items[at0061]">
+                <constraint xsi:type="tem:durationConstraint">
+                    <minMagnitude>PT0S</minMagnitude>
+                    <includesMaximum>false</includesMaximum>
+                    <includesMinimum>true</includesMinimum>
+                </constraint>
+            </Rule>
+            <Rule max="0" path="/description[at0001]/items[at0067]"/>
+            <Rule max="0" path="/description[at0001]/items[at0014]"/>
+            <Rule max="0" path="/description[at0001]/items[at0005]"/>
+            <Rule max="0" path="/protocol[at0053]/items[at0054]">
+                <constraint xsi:type="tem:multipleConstraint">
+                    <includedTypes>Text</includedTypes>
+                    <includedTypes>Identifier</includedTypes>
+                </constraint>
+            </Rule>
+        </Content>
+        <Content archetype_id="openEHR-EHR-INSTRUCTION.dr.v0" max="1"
+            path="/content" xsi:type="tem:INSTRUCTION"/>
+        <Content archetype_id="openEHR-EHR-INSTRUCTION.upp.v0" max="1"
+            path="/content" xsi:type="tem:INSTRUCTION"/>
+        <Content archetype_id="openEHR-EHR-OBSERVATION.in.v0" max="1"
+            path="/content" xsi:type="tem:OBSERVATION"/>
+    </definition>
+    <view>
+        <constraints path="[openEHR-EHR-COMPOSITION.report.v1]/language">
+            <items id="VisibleInView">
+                <value>language</value>
+            </items>
+        </constraints>
+    </view>
+    <integrity_checks archetype_id="openEHR-EHR-COMPOSITION.report.v1"
+        xmlns:tem="openEHR/v1/Template"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="tem:ArchetypeIntegrity">
+        <digest id="MD5-CAM-1.0.1">7435c2aba6965eee676b0a6a074c8560</digest>
+    </integrity_checks>
+    <integrity_checks archetype_id="openEHR-EHR-ACTION.procedure.v1"
+        xmlns:tem="openEHR/v1/Template"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="tem:ArchetypeIntegrity">
+        <digest id="MD5-CAM-1.0.1">7997d097cf97fe2ca26172317a15625e</digest>
+    </integrity_checks>
+    <integrity_checks archetype_id="openEHR-EHR-INSTRUCTION.dr.v0"
+        xmlns:tem="openEHR/v1/Template"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="tem:ArchetypeIntegrity">
+        <digest id="MD5-CAM-1.0.1">cb3156406d97bbe686c7a14c17f5179d</digest>
+    </integrity_checks>
+    <integrity_checks archetype_id="openEHR-EHR-INSTRUCTION.upp.v0"
+        xmlns:tem="openEHR/v1/Template"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="tem:ArchetypeIntegrity">
+        <digest id="MD5-CAM-1.0.1">0b73d6d6f644fba9e50f168510d0fd42</digest>
+    </integrity_checks>
+    <integrity_checks archetype_id="openEHR-EHR-OBSERVATION.in.v0"
+        xmlns:tem="openEHR/v1/Template"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="tem:ArchetypeIntegrity">
+        <digest id="MD5-CAM-1.0.1">b46383264394015025aca500cb7be4ff</digest>
+    </integrity_checks>
+</template>
