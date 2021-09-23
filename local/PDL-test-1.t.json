@@ -22,9 +22,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "0.2.0",
+      "sem_ver" : "1.0.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "e359cdb5758742928c970f6f66dad434",
+      "MD5-CAM-1.0.1" : "4e2f863fcb43ea925117c820a88fcb99",
       "PARENT:MD5-CAM-1.0.1" : "44D94C2952391723BB72523E4132FF1C"
     },
     "details" : {
@@ -209,6 +209,33 @@
                 "attributeTuples" : [ ],
                 "archetypeRef" : "PDL-organisation-level-HSAID",
                 "referenceType" : "templateId"
+              }, {
+                "@type" : "C_ARCHETYPE_ROOT",
+                "rmTypeName" : "CLUSTER",
+                "occurrences" : "0..*",
+                "nodeId" : "at0002.3",
+                "attributes" : [ ],
+                "attributeTuples" : [ ],
+                "archetypeRef" : "PDL-organisation-level-HSAID",
+                "referenceType" : "templateId"
+              }, {
+                "@type" : "C_ARCHETYPE_ROOT",
+                "rmTypeName" : "CLUSTER",
+                "occurrences" : "0..*",
+                "nodeId" : "at0002.2",
+                "attributes" : [ ],
+                "attributeTuples" : [ ],
+                "archetypeRef" : "PDL-organisation-level-HSAID",
+                "referenceType" : "templateId"
+              }, {
+                "@type" : "C_ARCHETYPE_ROOT",
+                "rmTypeName" : "CLUSTER",
+                "occurrences" : "0..*",
+                "nodeId" : "at0002.4",
+                "attributes" : [ ],
+                "attributeTuples" : [ ],
+                "archetypeRef" : "PDL-organisation-level-HSAID",
+                "referenceType" : "templateId"
               } ]
             } ],
             "attributeTuples" : [ ]
@@ -249,6 +276,20 @@
           "code" : "at0000.1",
           "text" : "PDL-test-1",
           "description" : "*Interaction, contact or care event between a subject of care and healthcare provider(s).(en)"
+        },
+        "at0002.2" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0002.1",
+          "text" : "*Extension(en) (2)",
+          "description" : "*Additional information required to capture local context or to align with other reference models/formalisms.(en)",
+          "comment" : "*e.g. Local hospital departmental infomation or additional metadata to align with FHIR or CIMI equivalents.(en)"
+        },
+        "at0002.3" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0002.1",
+          "text" : "*Extension(en) (3)",
+          "description" : "*Additional information required to capture local context or to align with other reference models/formalisms.(en)",
+          "comment" : "*e.g. Local hospital departmental infomation or additional metadata to align with FHIR or CIMI equivalents.(en)"
         }
       },
       "en" : {
@@ -257,6 +298,20 @@
           "code" : "at0000.1",
           "text" : "PDL-test-1",
           "description" : "Interaction, contact or care event between a subject of care and healthcare provider(s)."
+        },
+        "at0002.2" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0002.1",
+          "text" : "Extension (2)",
+          "description" : "Additional information required to capture local context or to align with other reference models/formalisms.",
+          "comment" : "e.g. Local hospital departmental infomation or additional metadata to align with FHIR or CIMI equivalents."
+        },
+        "at0002.3" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0002.1",
+          "text" : "Extension (3)",
+          "description" : "Additional information required to capture local context or to align with other reference models/formalisms.",
+          "comment" : "e.g. Local hospital departmental infomation or additional metadata to align with FHIR or CIMI equivalents."
         }
       },
       "es-ar" : {
@@ -265,6 +320,20 @@
           "code" : "at0000.1",
           "text" : "PDL-test-1",
           "description" : "Interacción, contacto o evento de cuidados entre un sujeto de cuidados y uno o más proveedores de cuidados de la salud."
+        },
+        "at0002.2" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0002.1",
+          "text" : "Extensión (2)",
+          "description" : "Información adicional requerida para representar el contexto local o para alineamiento con otros modelos de referencia y formalismos.",
+          "comment" : "Ej.: Información local del departamento hospitalario o metadatos adicionales para alineamiento con los equivalentes en FHIR o CIMI."
+        },
+        "at0002.3" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0002.1",
+          "text" : "Extensión (3)",
+          "description" : "Información adicional requerida para representar el contexto local o para alineamiento con otros modelos de referencia y formalismos.",
+          "comment" : "Ej.: Información local del departamento hospitalario o metadatos adicionales para alineamiento con los equivalentes en FHIR o CIMI."
         }
       },
       "ko" : {
@@ -273,6 +342,20 @@
           "code" : "at0000.1",
           "text" : "PDL-test-1",
           "description" : "*Interaction, contact or care event between a subject of care and healthcare provider(s).(en)"
+        },
+        "at0002.2" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0002.1",
+          "text" : "*Extension(en) (2)",
+          "description" : "*Additional information required to capture local context or to align with other reference models/formalisms.(en)",
+          "comment" : "*e.g. Local hospital departmental infomation or additional metadata to align with FHIR or CIMI equivalents.(en)"
+        },
+        "at0002.3" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0002.1",
+          "text" : "*Extension(en) (3)",
+          "description" : "*Additional information required to capture local context or to align with other reference models/formalisms.(en)",
+          "comment" : "*e.g. Local hospital departmental infomation or additional metadata to align with FHIR or CIMI equivalents.(en)"
         }
       },
       "pt-br" : {
@@ -281,6 +364,20 @@
           "code" : "at0000.1",
           "text" : "PDL-test-1",
           "description" : "Interação, contato ou cuidado entre o sujeito do cuidado e profissional(is) de saúde."
+        },
+        "at0002.2" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0002.1",
+          "text" : "Extensão (2)",
+          "description" : "Informações adicionais necessárias para identificar contexto local ou alinhar com outros formalismos/modelos de referência.",
+          "comment" : "Por exemplo: informação departamental local de hospital ou metadados adicionais para alinhar com equivalentes FHIR ou CIMI."
+        },
+        "at0002.3" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0002.1",
+          "text" : "Extensão (3)",
+          "description" : "Informações adicionais necessárias para identificar contexto local ou alinhar com outros formalismos/modelos de referência.",
+          "comment" : "Por exemplo: informação departamental local de hospital ou metadados adicionais para alinhar com equivalentes FHIR ou CIMI."
         }
       },
       "es" : {
@@ -289,6 +386,20 @@
           "code" : "at0000.1",
           "text" : "PDL-test-1",
           "description" : "Interacción, contacto o evento de cuidado entre un paciente y un proveedor de salud."
+        },
+        "at0002.2" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0002.1",
+          "text" : "Extensión (2)",
+          "description" : "Información adicional requerida para capturar el contexto local o alinear con otros modelos de referencia o formalismos.",
+          "comment" : "*e.g. Local hospital departmental infomation or additional metadata to align with FHIR or CIMI equivalents.(en)"
+        },
+        "at0002.3" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0002.1",
+          "text" : "Extensión (3)",
+          "description" : "Información adicional requerida para capturar el contexto local o alinear con otros modelos de referencia o formalismos.",
+          "comment" : "*e.g. Local hospital departmental infomation or additional metadata to align with FHIR or CIMI equivalents.(en)"
         }
       },
       "nl" : {
@@ -297,6 +408,20 @@
           "code" : "at0000.1",
           "text" : "PDL-test-1",
           "description" : "Interactie, contact of zorggebeurtenis tussen een onderwerp van zorg en zorgverlener(s)."
+        },
+        "at0002.2" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0002.1",
+          "text" : "Extensie (2)",
+          "description" : "Aanvullende informatie die vereist is om de lokale context vast te leggen of in lijn te brengen met andere referentie-modellen/formalismen.",
+          "comment" : "Bijvoorbeeld lokale ziekenhuisafdeling informatie of aanvullende metadata om uit in lijn te brengen met FHIR of CIMI-equivalenten."
+        },
+        "at0002.3" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0002.1",
+          "text" : "Extensie (3)",
+          "description" : "Aanvullende informatie die vereist is om de lokale context vast te leggen of in lijn te brengen met andere referentie-modellen/formalismen.",
+          "comment" : "Bijvoorbeeld lokale ziekenhuisafdeling informatie of aanvullende metadata om uit in lijn te brengen met FHIR of CIMI-equivalenten."
         }
       },
       "sv" : {
@@ -305,6 +430,20 @@
           "code" : "at0000.1",
           "text" : "PDL-test-1",
           "description" : "Interaktion, kontakt eller vårdhändelse mellan vårdtagare och vårdgivare inom hälso- och sjukvården."
+        },
+        "at0002.2" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0002.1",
+          "text" : "Extra information (2)",
+          "description" : "Extra information som krävs för att fånga lokal kontext eller för anpassning till andra referensmodeller och formalismer.",
+          "comment" : "Exempelvis information om en lokal sjukhusavdelning eller ytterligare metadata för anpassning till FHIR- eller CIMI-motsvarigheter."
+        },
+        "at0002.3" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0002.1",
+          "text" : "Extra information (3)",
+          "description" : "Extra information som krävs för att fånga lokal kontext eller för anpassning till andra referensmodeller och formalismer.",
+          "comment" : "Exempelvis information om en lokal sjukhusavdelning eller ytterligare metadata för anpassning till FHIR- eller CIMI-motsvarigheter."
         }
       },
       "de" : {
@@ -313,6 +452,20 @@
           "code" : "at0000.1",
           "text" : "PDL-test-1",
           "description" : "Interaktion, Kontakt oder Versorgungsereignis, zwischen einem Versorgungsempfänger und einem Gesundheitsdienstleister."
+        },
+        "at0002.2" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0002.1",
+          "text" : "Erweiterung (2)",
+          "description" : "Zusätzliche Informationen, zur Erfassung lokaler Inhalte oder Anpassung an andere Referenzmodelle / Formalismen.",
+          "comment" : "Zum Beispiel Informationen zu lokalen Krankenhausabteilungen oder zusätzliche Metadaten zur Übereinstimmung mit FHIR- oder CIMI-Äquivalenten."
+        },
+        "at0002.3" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0002.1",
+          "text" : "Erweiterung (3)",
+          "description" : "Zusätzliche Informationen, zur Erfassung lokaler Inhalte oder Anpassung an andere Referenzmodelle / Formalismen.",
+          "comment" : "Zum Beispiel Informationen zu lokalen Krankenhausabteilungen oder zusätzliche Metadaten zur Übereinstimmung mit FHIR- oder CIMI-Äquivalenten."
         }
       },
       "fi" : {
@@ -321,6 +474,20 @@
           "code" : "at0000.1",
           "text" : "PDL-test-1",
           "description" : "Hoitohenkilön ja terveydenhuollon tarjoajan välinen vuorovaikutus, kontakti- tai hoitotapahtuma."
+        },
+        "at0002.2" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0002.1",
+          "text" : "Laajennus (2)",
+          "description" : "*Additional information required to capture local context or to align with other reference models/formalisms.(en)",
+          "comment" : "*e.g. Local hospital departmental infomation or additional metadata to align with FHIR or CIMI equivalents.(en)"
+        },
+        "at0002.3" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0002.1",
+          "text" : "Laajennus (3)",
+          "description" : "*Additional information required to capture local context or to align with other reference models/formalisms.(en)",
+          "comment" : "*e.g. Local hospital departmental infomation or additional metadata to align with FHIR or CIMI equivalents.(en)"
         }
       },
       "it" : {
@@ -329,6 +496,20 @@
           "code" : "at0000.1",
           "text" : "PDL-test-1",
           "description" : "Interazione, contatto o evento di cura tra un soggetto di cura e il/i fornitore/i di assistenza sanitaria."
+        },
+        "at0002.2" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0002.1",
+          "text" : "Estensione (2)",
+          "description" : "Informazioni aggiuntive necessarie per catturare il contesto locale o per allinearsi con altri modelli/formalismi di riferimento.",
+          "comment" : "e.g. Informazioni sul reparto ospedaliero locale o metadati aggiuntivi da allineare con gli equivalenti FHIR o CIMI."
+        },
+        "at0002.3" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0002.1",
+          "text" : "Estensione (3)",
+          "description" : "Informazioni aggiuntive necessarie per catturare il contesto locale o per allinearsi con altri modelli/formalismi di riferimento.",
+          "comment" : "e.g. Informazioni sul reparto ospedaliero locale o metadati aggiuntivi da allineare con gli equivalenti FHIR o CIMI."
         }
       },
       "fr" : {
@@ -337,6 +518,20 @@
           "code" : "at0000.1",
           "text" : "PDL-test-1",
           "description" : "Interaction, contact ou événement de soins entre un sujet de soins et un ou des prestataires de soins."
+        },
+        "at0002.2" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0002.1",
+          "text" : "Extension (2)",
+          "description" : "Informations supplémentaires requises pour saisir le contexte local ou pour s'aligner sur d'autres modèles/formalismes de référence.",
+          "comment" : "Par exemple: les informations sur les services hospitaliers locaux ou des métadonnées supplémentaires pour s'aligner sur les équivalents FHIR ou CIMI."
+        },
+        "at0002.3" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0002.1",
+          "text" : "Extension (3)",
+          "description" : "Informations supplémentaires requises pour saisir le contexte local ou pour s'aligner sur d'autres modèles/formalismes de référence.",
+          "comment" : "Par exemple: les informations sur les services hospitaliers locaux ou des métadonnées supplémentaires pour s'aligner sur les équivalents FHIR ou CIMI."
         }
       }
     },
