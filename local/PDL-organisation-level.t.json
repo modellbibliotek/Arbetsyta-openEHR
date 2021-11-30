@@ -22,9 +22,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "1.0.0",
+      "sem_ver" : "2.0.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "c561960d40a4821c7478a84710cd9c42",
+      "MD5-CAM-1.0.1" : "0395e1a23232f1e6f0b72aef663ecf04",
       "PARENT:MD5-CAM-1.0.1" : "5A3F05C744F8449A401EE8BDEED5D610"
     },
     "details" : {
@@ -141,17 +141,18 @@
               "children" : [ {
                 "@type" : "C_TERMINOLOGY_CODE",
                 "rmTypeName" : "TERMINOLOGY_CODE",
+                "occurrences" : "0..1",
                 "terminologyId" : {
-                  "value" : "oid"
+                  "value" : "urn:oid"
                 },
                 "constraint" : [ ],
-                "selectedTerminologies" : [ "oid" ],
+                "selectedTerminologies" : [ "urn:oid" ],
                 "includedExternalTerminologyCodes" : [ {
-                  "terminologyId" : "oid",
+                  "terminologyId" : "urn:oid",
                   "code" : "1.2.752.29.6.10",
                   "value" : "Vårdgivare"
                 }, {
-                  "terminologyId" : "oid",
+                  "terminologyId" : "urn:oid",
                   "code" : "1.2.752.29.6.13",
                   "value" : "Vårdenhet"
                 } ]
