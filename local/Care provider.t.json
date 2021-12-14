@@ -22,9 +22,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "2.1.0",
+      "sem_ver" : "2.2.0",
       "build_uid" : "5746ba87-6c50-487d-ae95-843cd2a76da7",
-      "MD5-CAM-1.0.1" : "b33b53f4553b97f2065af92e55742d22",
+      "MD5-CAM-1.0.1" : "09f6c3d9b880e4aecb6c7491877af6a0",
       "PARENT:MD5-CAM-1.0.1" : "56687785A4AEF4D2BE503626E5D494CB"
     },
     "details" : {
@@ -132,10 +132,10 @@
             "defaultValue" : {
               "defining_code" : {
                 "terminology_id" : {
-                  "value" : "local_terms",
+                  "value" : "urn:oid:",
                   "@type" : "TERMINOLOGY_ID"
                 },
-                "code_string" : "urn:oid:1.2.752.29.6.10",
+                "code_string" : "1.2.752.29.6.10",
                 "@type" : "CODE_PHRASE"
               },
               "value" : "Vårdgivare",
@@ -149,13 +149,13 @@
                 "rmTypeName" : "TERMINOLOGY_CODE",
                 "occurrences" : "0..1",
                 "terminologyId" : {
-                  "value" : "local_terms"
+                  "value" : "urn:oid:"
                 },
                 "constraint" : [ ],
-                "selectedTerminologies" : [ "local_terms" ],
+                "selectedTerminologies" : [ "urn:oid:" ],
                 "includedExternalTerminologyCodes" : [ {
-                  "terminologyId" : "local_terms",
-                  "code" : "urn:oid:1.2.752.29.6.10",
+                  "terminologyId" : "urn:oid:",
+                  "code" : "1.2.752.29.6.10",
                   "value" : "Vårdgivare"
                 } ]
               } ]
