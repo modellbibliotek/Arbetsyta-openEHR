@@ -22,9 +22,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "1.0.0",
+      "sem_ver" : "2.0.0",
       "build_uid" : "5746ba87-6c50-487d-ae95-843cd2a76da7",
-      "MD5-CAM-1.0.1" : "36b0ef9bd6f187e5bd7fdbbdc642d839",
+      "MD5-CAM-1.0.1" : "f29a8291a6d901f3a337052b02a5fdaf",
       "PARENT:MD5-CAM-1.0.1" : "56687785A4AEF4D2BE503626E5D494CB"
     },
     "details" : {
@@ -102,7 +102,7 @@
             "@type" : "C_COMPLEX_OBJECT",
             "rmTypeName" : "DV_IDENTIFIER",
             "defaultValue" : {
-              "type" : "urn:oid:1.2.752.29.4.19",
+              "type" : "urn:oid:2.5.4.97",
               "@type" : "DV_IDENTIFIER"
             },
             "attributes" : [ {
@@ -111,7 +111,7 @@
               "children" : [ {
                 "@type" : "C_STRING",
                 "rmTypeName" : "STRING",
-                "constraint" : [ "/urn:oid:1.2.752.29.4.19/" ]
+                "constraint" : [ "/urn:oid:2.5.4.97/" ]
               } ]
             } ],
             "attributeTuples" : [ ]
@@ -135,10 +135,10 @@
                   "value" : "local_terms",
                   "@type" : "TERMINOLOGY_ID"
                 },
-                "code_string" : "urn:oid:1.2.752.29.6.13",
+                "code_string" : "urn:oid:1.2.752.29.6.10",
                 "@type" : "CODE_PHRASE"
               },
-              "value" : "Vårdenhet",
+              "value" : "Vårdgivare",
               "@type" : "DV_CODED_TEXT"
             },
             "attributes" : [ {
@@ -155,8 +155,8 @@
                 "selectedTerminologies" : [ "local_terms" ],
                 "includedExternalTerminologyCodes" : [ {
                   "terminologyId" : "local_terms",
-                  "code" : "urn:oid:1.2.752.29.6.13",
-                  "value" : "Vårdenhet"
+                  "code" : "urn:oid:1.2.752.29.6.10",
+                  "value" : "Vårdgivare"
                 } ]
               } ]
             } ],
@@ -190,7 +190,7 @@
         "at0000.1" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0000.1",
-          "text" : "Care provider subunit",
+          "text" : "Care provider",
           "description" : "An identified formal entity or informal grouping of people.",
           "comment" : "For example: a company, institution, corporation, department, community group, healthcare practice group, payer/insurer, care team, or a group of neighbours who will act as carers or support."
         },
@@ -224,7 +224,7 @@
         "at0000.1" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0000.1",
-          "text" : "Vårdenhet",
+          "text" : "Vårdgivare",
           "description" : "In identifierad organisationsenhet eller en informell grupp.",
           "comment" : "Exempelvis företag, institution, avdeling, enhet, förening, vårdgivare, försäkringsbolag, vårdteam, eller en grupp grannar som fungerar som stöd."
         },
@@ -232,7 +232,7 @@
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0003.1",
           "text" : "Identifierare",
-          "description" : "Identifierare associerad med den identifierade organisationen, i Sverige vanligen ett HSA-id",
+          "description" : "Vårdgivarens identifierare , i Sverige vanligen ett organisationsnummer",
           "comment" : "Se https://openehr.atlassian.net/wiki/spaces/healthmod/pages/1922990156/HSA-identitet+och+Organisationsnummer"
         }
       }
