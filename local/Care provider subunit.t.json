@@ -22,9 +22,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "2.2.0",
+      "sem_ver" : "3.0.0",
       "build_uid" : "5746ba87-6c50-487d-ae95-843cd2a76da7",
-      "MD5-CAM-1.0.1" : "67bee0ccfcde0d6f2aeae4c9a85c406d",
+      "MD5-CAM-1.0.1" : "0485f1d093d66a290260f3a70803793c",
       "PARENT:MD5-CAM-1.0.1" : "56687785A4AEF4D2BE503626E5D494CB"
     },
     "details" : {
@@ -149,12 +149,12 @@
                 "rmTypeName" : "TERMINOLOGY_CODE",
                 "occurrences" : "0..1",
                 "terminologyId" : {
-                  "value" : "urn:oid:"
+                  "value" : "urn:oid"
                 },
                 "constraint" : [ ],
-                "selectedTerminologies" : [ "urn:oid:" ],
+                "selectedTerminologies" : [ "urn:oid" ],
                 "includedExternalTerminologyCodes" : [ {
-                  "terminologyId" : "urn:oid:",
+                  "terminologyId" : "urn:oid",
                   "code" : "1.2.752.29.6.13",
                   "value" : "Vårdenhet"
                 } ]
