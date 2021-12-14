@@ -22,9 +22,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "0.1.0",
+      "sem_ver" : "0.2.0",
       "build_uid" : "5746ba87-6c50-487d-ae95-843cd2a76da7",
-      "MD5-CAM-1.0.1" : "59e99d167870987fc3b90c86151f5866",
+      "MD5-CAM-1.0.1" : "664a6834829f4c31213ad2a760db9ab1",
       "PARENT:MD5-CAM-1.0.1" : "56687785A4AEF4D2BE503626E5D494CB"
     },
     "details" : {
@@ -154,6 +154,13 @@
           "text" : "Care provider subunit",
           "description" : "An identified formal entity or informal grouping of people.",
           "comment" : "For example: a company, institution, corporation, department, community group, healthcare practice group, payer/insurer, care team, or a group of neighbours who will act as carers or support."
+        },
+        "at0003.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0003.1",
+          "text" : "Identifier",
+          "description" : "Identifier associated with the organisation, in Sweden usually a HSA-id",
+          "comment" : "See https://openehr.atlassian.net/wiki/spaces/healthmod/pages/1922990156/HSA-identitet+och+Organisationsnummer"
         }
       },
       "nb" : {
@@ -186,7 +193,8 @@
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0003.1",
           "text" : "Identifierare",
-          "description" : "Identifierare associerad med den identifierade organisationen, i Sverige vanligen ett HSA-id"
+          "description" : "Identifierare associerad med den identifierade organisationen, i Sverige vanligen ett HSA-id",
+          "comment" : "Se https://openehr.atlassian.net/wiki/spaces/healthmod/pages/1922990156/HSA-identitet+och+Organisationsnummer"
         }
       }
     },
