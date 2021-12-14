@@ -22,9 +22,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "2.0.0",
+      "sem_ver" : "2.1.0",
       "build_uid" : "5746ba87-6c50-487d-ae95-843cd2a76da7",
-      "MD5-CAM-1.0.1" : "f29a8291a6d901f3a337052b02a5fdaf",
+      "MD5-CAM-1.0.1" : "b33b53f4553b97f2065af92e55742d22",
       "PARENT:MD5-CAM-1.0.1" : "56687785A4AEF4D2BE503626E5D494CB"
     },
     "details" : {
@@ -198,8 +198,8 @@
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0003.1",
           "text" : "Identifier",
-          "description" : "Identifier associated with the organisation, in Sweden usually a HSA-id",
-          "comment" : "See https://openehr.atlassian.net/wiki/spaces/healthmod/pages/1922990156/HSA-identitet+och+Organisationsnummer"
+          "description" : "Identifier associated with the organisation, in Sweden usually a swedish \"organisationsnummer\"",
+          "comment" : "See https://openehr.atlassian.net/wiki/spaces/healthmod/pages/1922990156/HSA-identitet+och+Organisationsnummer and https://openehr.atlassian.net/wiki/spaces/healthmod/pages/1893105737/PDL+i+openEHR#vg_ve\n "
         }
       },
       "nb" : {
@@ -233,7 +233,7 @@
           "code" : "at0003.1",
           "text" : "Identifierare",
           "description" : "Vårdgivarens identifierare , i Sverige vanligen ett organisationsnummer",
-          "comment" : "Se https://openehr.atlassian.net/wiki/spaces/healthmod/pages/1922990156/HSA-identitet+och+Organisationsnummer"
+          "comment" : "Se https://openehr.atlassian.net/wiki/spaces/healthmod/pages/1922990156/HSA-identitet+och+Organisationsnummer och https://openehr.atlassian.net/wiki/spaces/healthmod/pages/1893105737/PDL+i+openEHR#vg_ve\n "
         }
       }
     },
