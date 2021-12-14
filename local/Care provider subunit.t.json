@@ -22,9 +22,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "0.2.0",
+      "sem_ver" : "1.0.0",
       "build_uid" : "5746ba87-6c50-487d-ae95-843cd2a76da7",
-      "MD5-CAM-1.0.1" : "664a6834829f4c31213ad2a760db9ab1",
+      "MD5-CAM-1.0.1" : "c3e11ddeae328315b85e84571eb5a0ba",
       "PARENT:MD5-CAM-1.0.1" : "56687785A4AEF4D2BE503626E5D494CB"
     },
     "details" : {
@@ -120,6 +120,52 @@
         "attributeTuples" : [ ]
       }, {
         "@type" : "C_COMPLEX_OBJECT",
+        "rmTypeName" : "ELEMENT",
+        "nodeId" : "at0004.1",
+        "attributes" : [ {
+          "@type" : "C_ATTRIBUTE",
+          "rmAttributeName" : "value",
+          "children" : [ {
+            "@type" : "C_COMPLEX_OBJECT",
+            "rmTypeName" : "DV_CODED_TEXT",
+            "occurrences" : "1..1",
+            "defaultValue" : {
+              "defining_code" : {
+                "terminology_id" : {
+                  "value" : "local_terms",
+                  "@type" : "TERMINOLOGY_ID"
+                },
+                "code_string" : "urn:oid:1.2.752.29.6.13",
+                "@type" : "CODE_PHRASE"
+              },
+              "value" : "Vårdenhet",
+              "@type" : "DV_CODED_TEXT"
+            },
+            "attributes" : [ {
+              "@type" : "C_ATTRIBUTE",
+              "rmAttributeName" : "defining_code",
+              "children" : [ {
+                "@type" : "C_TERMINOLOGY_CODE",
+                "rmTypeName" : "TERMINOLOGY_CODE",
+                "occurrences" : "0..1",
+                "terminologyId" : {
+                  "value" : "local_terms"
+                },
+                "constraint" : [ ],
+                "selectedTerminologies" : [ "local_terms" ],
+                "includedExternalTerminologyCodes" : [ {
+                  "terminologyId" : "local_terms",
+                  "code" : "urn:oid:1.2.752.29.6.13",
+                  "value" : "Vårdenhet"
+                } ]
+              } ]
+            } ],
+            "attributeTuples" : [ ]
+          } ]
+        } ],
+        "attributeTuples" : [ ]
+      }, {
+        "@type" : "C_COMPLEX_OBJECT",
         "rmTypeName" : "CLUSTER",
         "occurrences" : "0..0",
         "nodeId" : "at0006.1",
@@ -141,13 +187,6 @@
     "conceptCode" : "at0000",
     "termDefinitions" : {
       "en" : {
-        "at0003" : {
-          "@type" : "ARCHETYPE_TERM",
-          "code" : "at0003",
-          "text" : "Identifier",
-          "description" : "Identifier associated with the organisation, in Sweden usually a HSA-id,\n",
-          "comment" : "HSA-id is of type urn:oid:1.2.752.29.4.19 see https://openehr.atlassian.net/wiki/spaces/healthmod/pages/1922990156/HSA-identitet+och+Organisationsnummer"
-        },
         "at0000.1" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0000.1",
