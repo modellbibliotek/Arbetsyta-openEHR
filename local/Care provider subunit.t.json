@@ -22,9 +22,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "1.0.0",
+      "sem_ver" : "1.0.1",
       "build_uid" : "5746ba87-6c50-487d-ae95-843cd2a76da7",
-      "MD5-CAM-1.0.1" : "c3e11ddeae328315b85e84571eb5a0ba",
+      "MD5-CAM-1.0.1" : "b59bed00642194dc63ef3c1d11b44e1e",
       "PARENT:MD5-CAM-1.0.1" : "56687785A4AEF4D2BE503626E5D494CB"
     },
     "details" : {
@@ -199,7 +199,14 @@
           "code" : "at0003.1",
           "text" : "Identifier",
           "description" : "Identifier associated with the organisation, in Sweden usually a HSA-id",
-          "comment" : "See https://openehr.atlassian.net/wiki/spaces/healthmod/pages/1922990156/HSA-identitet+och+Organisationsnummer"
+          "comment" : "See https://openehr.atlassian.net/wiki/spaces/healthmod/pages/1922990156/HSA-identitet+och+Organisationsnummer and https://openehr.atlassian.net/wiki/spaces/healthmod/pages/1893105737/PDL+i+openEHR#vg_ve\n "
+        },
+        "at0004.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0004.1",
+          "text" : "Role",
+          "description" : "The relationship or role of the organisation to the individual or subject of care.",
+          "comment" : "See Se https://openehr.atlassian.net/wiki/spaces/healthmod/pages/1922990156/HSA-identitet+och+Organisationsnummer and https://openehr.atlassian.net/wiki/spaces/healthmod/pages/1893105737/PDL+i+openEHR#vg_ve\n "
         }
       },
       "nb" : {
@@ -232,8 +239,15 @@
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0003.1",
           "text" : "Identifierare",
-          "description" : "Identifierare associerad med den identifierade organisationen, i Sverige vanligen ett HSA-id",
-          "comment" : "Se https://openehr.atlassian.net/wiki/spaces/healthmod/pages/1922990156/HSA-identitet+och+Organisationsnummer"
+          "description" : "Vårdenhetens identifierare, i Sverige vanligen ett HSA-id",
+          "comment" : "Se https://openehr.atlassian.net/wiki/spaces/healthmod/pages/1922990156/HSA-identitet+och+Organisationsnummer och https://openehr.atlassian.net/wiki/spaces/healthmod/pages/1893105737/PDL+i+openEHR#vg_ve\n "
+        },
+        "at0004.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0004.1",
+          "text" : "Roll",
+          "description" : "Organisationens relation eller roll till till individen eller patienten",
+          "comment" : "Se https://openehr.atlassian.net/wiki/spaces/healthmod/pages/1922990156/HSA-identitet+och+Organisationsnummer och https://openehr.atlassian.net/wiki/spaces/healthmod/pages/1893105737/PDL+i+openEHR#vg_ve\n "
         }
       }
     },
