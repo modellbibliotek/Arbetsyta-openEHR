@@ -22,9 +22,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "5.0.0",
+      "sem_ver" : "6.0.0",
       "build_uid" : "5746ba87-6c50-487d-ae95-843cd2a76da7",
-      "MD5-CAM-1.0.1" : "734806f9d617ca997490dfe8f950db54",
+      "MD5-CAM-1.0.1" : "dffaabbcb31463554aae0d012c3909e8",
       "PARENT:MD5-CAM-1.0.1" : "56687785A4AEF4D2BE503626E5D494CB"
     },
     "details" : {
@@ -130,7 +130,7 @@
                 "code_string" : "43741000",
                 "@type" : "CODE_PHRASE"
               },
-              "value" : "Vårdenhet",
+              "value" : "vårdenhet",
               "@type" : "DV_CODED_TEXT"
             },
             "attributes" : [ {
@@ -148,7 +148,7 @@
                 "includedExternalTerminologyCodes" : [ {
                   "terminologyId" : "http://snomed.info/sct/900000000000207008",
                   "code" : "43741000",
-                  "value" : "Vårdenhet"
+                  "value" : "vårdenhet"
                 } ]
               } ]
             } ],
@@ -338,7 +338,7 @@
                   "code_string" : "143591000052106",
                   "@type" : "CODE_PHRASE"
                 },
-                "value" : "Vårdgivare",
+                "value" : "vårdgivare",
                 "@type" : "DV_CODED_TEXT"
               },
               "attributes" : [ {
@@ -356,7 +356,7 @@
                   "includedExternalTerminologyCodes" : [ {
                     "terminologyId" : "http://snomed.info/sct/45991000052106",
                     "code" : "143591000052106",
-                    "value" : "Vårdgivare"
+                    "value" : "vårdgivare"
                   } ]
                 } ]
               } ],
