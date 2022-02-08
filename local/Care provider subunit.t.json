@@ -22,9 +22,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "4.0.0",
+      "sem_ver" : "5.0.0",
       "build_uid" : "5746ba87-6c50-487d-ae95-843cd2a76da7",
-      "MD5-CAM-1.0.1" : "1864ba8ea62c52c006b1a5ee18665d49",
+      "MD5-CAM-1.0.1" : "734806f9d617ca997490dfe8f950db54",
       "PARENT:MD5-CAM-1.0.1" : "56687785A4AEF4D2BE503626E5D494CB"
     },
     "details" : {
@@ -124,10 +124,10 @@
             "defaultValue" : {
               "defining_code" : {
                 "terminology_id" : {
-                  "value" : "urn:oid:",
+                  "value" : "http://snomed.info/sct/900000000000207008",
                   "@type" : "TERMINOLOGY_ID"
                 },
-                "code_string" : "1.2.752.29.6.13",
+                "code_string" : "43741000",
                 "@type" : "CODE_PHRASE"
               },
               "value" : "Vårdenhet",
@@ -141,13 +141,13 @@
                 "rmTypeName" : "TERMINOLOGY_CODE",
                 "occurrences" : "0..1",
                 "terminologyId" : {
-                  "value" : "urn:oid"
+                  "value" : "http://snomed.info/sct/900000000000207008"
                 },
                 "constraint" : [ ],
-                "selectedTerminologies" : [ "urn:oid" ],
+                "selectedTerminologies" : [ "http://snomed.info/sct/900000000000207008" ],
                 "includedExternalTerminologyCodes" : [ {
-                  "terminologyId" : "urn:oid",
-                  "code" : "1.2.752.29.6.13",
+                  "terminologyId" : "http://snomed.info/sct/900000000000207008",
+                  "code" : "43741000",
                   "value" : "Vårdenhet"
                 } ]
               } ]
@@ -261,7 +261,7 @@
   "rmName" : "openehr",
   "rmRelease" : "1.1.0",
   "generated" : true,
-  "templateId" : "Care provider subunit",
+  "templateId" : "Care unit",
   "otherMetaData" : { },
   "templateOverlays" : [ {
     "@type" : "TEMPLATE_OVERLAY",
@@ -335,10 +335,10 @@
                     "value" : "http://snomed.info/sct/45991000052106",
                     "@type" : "TERMINOLOGY_ID"
                   },
-                  "code_string" : "43741000",
+                  "code_string" : "143591000052106",
                   "@type" : "CODE_PHRASE"
                 },
-                "value" : "Vårdenhet",
+                "value" : "Vårdgivare",
                 "@type" : "DV_CODED_TEXT"
               },
               "attributes" : [ {
@@ -355,8 +355,8 @@
                   "selectedTerminologies" : [ "http://snomed.info/sct/45991000052106" ],
                   "includedExternalTerminologyCodes" : [ {
                     "terminologyId" : "http://snomed.info/sct/45991000052106",
-                    "code" : "43741000",
-                    "value" : "Vårdenhet"
+                    "code" : "143591000052106",
+                    "value" : "Vårdgivare"
                   } ]
                 } ]
               } ],
