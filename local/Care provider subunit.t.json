@@ -24,7 +24,7 @@
       "custodian_namespace" : "",
       "sem_ver" : "6.0.0",
       "build_uid" : "5746ba87-6c50-487d-ae95-843cd2a76da7",
-      "MD5-CAM-1.0.1" : "dffaabbcb31463554aae0d012c3909e8",
+      "MD5-CAM-1.0.1" : "3ee645a496b6228b8b3b74d7207d6e15",
       "PARENT:MD5-CAM-1.0.1" : "56687785A4AEF4D2BE503626E5D494CB"
     },
     "details" : {
@@ -48,6 +48,7 @@
           },
           "codeString" : "sv"
         },
+        "purpose" : "Template avsedd för att lagra information om vårdenhet och vårdgivare som behövs bl.a. för att utvärdera tillgång enligt PDL",
         "keywords" : [ ],
         "originalResourceUri" : { },
         "otherDetails" : { }
@@ -72,6 +73,7 @@
           },
           "codeString" : "en"
         },
+        "purpose" : "Template intended for infomration om abour care unit and associated care provider organisation. Needed e.g. to evaluate access according to the Swedish patient data laws (PDL)",
         "keywords" : [ ],
         "originalResourceUri" : { },
         "otherDetails" : { }
@@ -276,7 +278,69 @@
       "otherDetails" : {
         "PARENT:MD5-CAM-1.0.1" : "56687785A4AEF4D2BE503626E5D494CB"
       },
-      "details" : { }
+      "details" : {
+        "de" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "de"
+          },
+          "purpose" : "Zur Darstellung von Informationen zur einer Organisation, die in der Gesundheitsakte repräsentiert sein muss.",
+          "keywords" : [ "Organisation, Anbieter, Versorger" ],
+          "use" : "Der Archetyp wird verwendet, um Informationen zur einer Organisation darzustellen, die in der Gesundheitsakte dargestellt werden muss. Beispiele beinhalten:\r\n- den Namen und die Kontaktdaten einer Organisation, die ein Exemplar einer erweiterten Pflegeakte besitzt;\r\n- den Namen und die Kontaktdaten einer Organisation für ambulante Pflegedienste im Rahmen einer Übermittlung von Krankenakten von Praxis zu Praxis; oder- den Namen, die Funktion und die Kontaktdaten eines Mitglieds des Betreuungsteams.\r\n\r\nIn diesem Kontext der Erfassung der Kontaktdaten einer Organisation oder von Personen innerhalb der Organisation kann der Umfang einer \"Organisation\" informell und flexibel sein, solange er dem Zweck dient. Zum Beispiel:\r\n- ein Krankenhaus; oder\r\n- eine \"Unterorganisation\" eines Krankenhauses, wie z. B. eine operativ getrennte oder spezialisierte Außenklinik eines Krankenhauses oder ein angeschlossener ambulanter Pflegedienst.\r\n\r\nDieser Archetyp könnte auch als Proxy für formale demografische Daten verwendet werden, wenn ein Template mit Domänenexperten überprüft wird – beispielsweise bei einer Bewertung, bei der die Prüfer erwarten würden, dass die Personendaten oben auf dem Bewertungsformular angezeigt werden.",
+          "misuse" : "Der Archetyp darf nicht verwendet werden, um die formellen demografischen Daten für die formelle Identifizierungsverwaltung oder zum Zwecke der Führung eines demografischen Registers oder Index zu repräsentieren oder zu ersetzen. Verwenden Sie zu diesem Zweck einen formellen Gesundheitsdienstleister Index oder Archetypen, die auf dem openEHR Demographic Information Model basieren.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "sv" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "sv"
+          },
+          "purpose" : "Att registrera information om en organisation som behöver representeras i journalen.",
+          "keywords" : [ "organisation, leverantör, vårdgivare, vårdenhet" ],
+          "use" : "Används för att registrera information om en organisation som behöver representeras i journalen. Exempel inkluderar:\r\n- namn och kontaktuppgifter för en organisation som har en fysisk kopia av patientens önskemål om vård i händelse av att patienten inte längre kan kommunicera\r\n- namn och kontaktuppgifter för hemtjänst- eller hemsjukvårdsorganisation vid överföring av journaluppgifter mellan organisationer\r\n\r\nDefintionien eller omfattningen av en 'organisation' kan i detta sammanhang vara informell och flexibel så länge den tjänar syftet. Till exempel:\r\n- ett sjukhus; eller\r\n- en \"underorganisation\" för ett sjukhus, såsom en separat eller specialiserad satellitklinik för ett sjukhus eller en tillhörande hemsjukvårs.\r\n\r\nDen här arketypen kan också användas som en proxy för formell demografisk data när man granskar en mall med domänexperter - exempelvis där granskare förväntar sig att se en organisations information i ett formulär.",
+          "misuse" : "Inte avsedd att representera eller ersätta formell identifieringshantering eller för att upprätta ett demografiskt register eller index. Använd en katalogtjänst för detta ändamål eller arketyper baserade på openEHRs demografiska informationsmodell.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "nb" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "nb"
+          },
+          "purpose" : "For å registrere detaljer om en organisasjon i en pasientjournal.",
+          "keywords" : [ ],
+          "use" : "Brukes for å registrere detaljer om en organisasjon i en pasientjournal, når det ikke er ønskelig eller mulig å bruke et formelt demografisk register eller indeks.\r\n\r\nFor eksempel:\r\n- navn og kontaktdetaljer for en organisasjon som har en kopi av et fremtidig behandlingsvalg.\r\n- navn, rolle og kontaktdetaljer til et medlem av et omsorgsteam.\r\n- et uformelt støttenettverk.\r\n\r\nI denne konteksten kan registreringen av en organisasjons kontaktdetaljer, eller person i organisasjonen, være uformell og fleksibel så lenge det tjener formålet.\r\nFor eksempel:\r\n- et sykehus\r\n- en spesialavdeling i et sykehus eller et tilknyttet hjemmesykehus eller hjemmetjeneste.\r\n\r\nDenne arketypen kan også brukes som en midlertidig erstatning for formelle demografiske data når man gjennomgår et templat med domeneeksperter - for eksempel en vurdering der man i templatet forventer å se detaljer om et individ på toppen av vurderingsskjema.\r\n",
+          "misuse" : "Brukes ikke til å representere eller erstatte de formelle demografiske opplysningene for formell identitetsforvaltning eller for å opprettholde et demografisk register eller en indeks. Bruk formelle pasientregister, helsepersonellregister eller arketyper basert på openEHR demografisk informasjonsmodell til dette formålet.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "en" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "en"
+          },
+          "purpose" : "To record details about an organisation that needs to be represented within the health record.",
+          "keywords" : [ "organisation, organization, provider, carer, healthcare" ],
+          "use" : "Use to record details of an organisation in the electronic health record, when it is not appropriate or possible to use an official demographic register or index. Examples include:\r\n- the name and contact details for an organisation that holds a physical copy of an advanced care record; or\r\n- the name and contact details of a visiting home care organisation in a practice-to-practice transfer of medical record.\r\n\r\nIn this context of recording an organisation's contact details or people within the organisation, the scope of an 'organisation' can be informal and flexible, as long as it serves the purpose. For example:\r\n- a hospital; or\r\n- a 'sub organisation' of a hospital, such as an operationally separate or specialised satellite clinic of a hospital or an associated home care service.\r\n\r\nThis archetype could also be used as a proxy for formal demographic data when reviewing a template with domain experts - for example, an assessment where reviewers would expect to see an organisations' details on an assessment form.",
+          "misuse" : "Not to be used to represent or replace formal identification management or for the purposes of maintaining an official demographic register or index. Use a formal Health Provider Index for this purpose, or archetypes based on the openEHR Demographic Information Model.",
+          "copyright" : "© openEHR Foundation",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        }
+      }
     },
     "parentArchetypeId" : "openEHR-EHR-CLUSTER.organisation.v0",
     "differential" : true,
