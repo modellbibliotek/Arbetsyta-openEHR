@@ -22,9 +22,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "4.1.0",
+      "sem_ver" : "4.2.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "a6fddd53ea0dad1822ca4ea22efa42d8",
+      "MD5-CAM-1.0.1" : "c3da9c89cb06daed14e01df21fd7c3ed",
       "PARENT:MD5-CAM-1.0.1" : "44D94C2952391723BB72523E4132FF1C"
     },
     "details" : {
@@ -264,7 +264,7 @@
         "at0000.1" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0000.1",
-          "text" : "PDL-test-2-sibling",
+          "text" : "PDL-test-3-inside-parent-cluster",
           "description" : "Interaction, contact or care event between a subject of care and healthcare provider(s)."
         }
       },
