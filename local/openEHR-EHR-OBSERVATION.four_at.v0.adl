@@ -50,7 +50,7 @@ Bellelli G, Morandi A, Davis DH, Mazzola P, Turco R, Gentile S, Ryan T, Cash H, 
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"3B061B4C2D55F1C035682CA5EB9EAF58">
+		["MD5-CAM-1.0.1"] = <"f35da558e274e72ac7d92af6764e2014">
 		["build_uid"] = <"40e84ca2-cc0f-441d-bb59-1b54e32d0c7c">
 		["revision"] = <"0.0.1-alpha">
 	>
@@ -124,7 +124,7 @@ ontology
 			items = <
 				["at0000"] = <
 					text = <"4 ‘A’s Test (4AT)">
-					description = <"A screening tool used for rapid initial assessment of delirium and cognitive impairment.">
+					description = <"A screening tool used for rapid initial assessment of delirium and cognitive impairment.d">
 				>
 				["at0001"] = <
 					text = <"History">
@@ -224,7 +224,7 @@ ontology
 			items = <
 				["at0000"] = <
 					text = <"*4 ‘A’s Test (4AT) (en)">
-					description = <"*A screening tool used for rapid initial assessment of delirium and cognitive impairment. (en)">
+					description = <"*A screening tool used for rapid initial assessment of delirium and cognitive impairment.d (en)">
 				>
 				["at0001"] = <
 					text = <"History">
