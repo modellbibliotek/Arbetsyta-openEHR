@@ -19,9 +19,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "0.3.0",
+      "sem_ver" : "0.4.0",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "7f3df248d8f0595eb4caa07c725d16ae",
+      "MD5-CAM-1.0.1" : "842377353f5199e973dd1f6852352887",
       "PARENT:MD5-CAM-1.0.1" : "44D94C2952391723BB72523E4132FF1C"
     },
     "details" : {
@@ -230,7 +230,7 @@
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0000.1",
           "text" : "testing",
-          "description" : "Interaction, contact or care event between a subject of care and healthcare provider(s)."
+          "description" : "Interaction, contact or care event between a subject of care and healthcare provider(s). dd"
         }
       },
       "es-ar" : {
